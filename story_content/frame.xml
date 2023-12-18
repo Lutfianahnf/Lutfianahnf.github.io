@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Petualangan Calistung Jadi" />
+              <option name="title_text" value="Petualangan Calistung" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -35,7 +35,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -1390,6 +1390,8 @@
             <slidelink slideid="_player.6JgpQPwFu5M.6Jh3czNaT9Q" displaytext="ANGKA" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6IZe6kDjYTZ" displaytext="Game" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.62MgnIu373M" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6kgIdRnJS9q" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6WOqyIZFtG1" displaytext="Text Entry" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6bevQqGwbLV" displaytext="Drag and Drop" expand="false" type="slide" />
           </links>
         </slidelink>

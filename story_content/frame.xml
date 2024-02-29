@@ -74,6 +74,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1155,8 +1156,26 @@
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
@@ -1191,6 +1210,7 @@
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Toggle zoom to fit</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
@@ -1284,8 +1304,20 @@
             <slidelink slideid="_player.6NqWYGsV0O7.5zTd3IIXiaA" displaytext="Menyusun suku kata" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.6MYbGG8L3wN" displaytext="Menyusun suku kata" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.68RtGYXBSH8" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.6iOmjtUzWo2" displaytext="Drag and Drop" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.6Yzghrsz3rM" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.6JSBQNj7mo4" displaytext="Urutkan huruf sesuai abjad!" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.5vecb9xOveQ" displaytext="Susun kata di bawah ini menjadi kalimat yang benar!" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.5m0AEiuDlec" displaytext="Susun kata di bawah ini menjadi kalimat yang benar!" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.6gsUIiHsatC" displaytext="Apa pelajaran yang kamu dapat dari cerita di atas?" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.5cZ0g6naYMj" displaytext="Percakapan di atas dilakukan oleh ….." expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.5xgoMgyvWGt" displaytext="Pada percakapan di atas, Mila membeli ….." expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.69B6XAxtN5D" displaytext="Judul bacaan di atas adalah ….." expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.5wNcHjmXXyI" displaytext="Tikus membawa …." expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.6gdSkj636WE" displaytext="Isi tempat kosong dengan huruf vokal!" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.6Hvde41j8Zp" displaytext="Lengkapilah suku kata sesuai gambar!" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.6XbvNhAXE57" displaytext="Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.6NqWYGsV0O7.6GKOpsyEgP8" displaytext="Pick Many" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.5peI7xEWuVt" displaytext="Mengenal Huruf (Lagu)" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.5WWZgkjnr08" displaytext="Mengenal Huruf (Lagu)" expand="false" type="slide" />
             <slidelink slideid="_player.6NqWYGsV0O7.6hMsZzELxKx" displaytext="Mengenal Huruf (Lagu)" expand="false" type="slide" />
@@ -1356,6 +1388,14 @@
             <slidelink slideid="_player.6CSFoAxsuHM.6UvyvX0uDy6" displaytext="Game" expand="false" type="slide" />
             <slidelink slideid="_player.6CSFoAxsuHM.5sceHbAVMjJ" displaytext="Game 1" expand="false" type="slide" />
             <slidelink slideid="_player.6CSFoAxsuHM.5cV9xupb2x6" displaytext="Game 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.5eZ1ERihsP0" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.6Zgq8fcjSmu" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.6JBjnGjn7M3" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.5gXPv58C6Bd" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.5wiDf2vPzGr" displaytext="Tulis ulang kata di bawah ini!" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.6XHay2tHdNG" displaytext="Tulis ulang kata di bawah ini!" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.5mtZJFjG3xP" displaytext="Susun huruf di bawah menjadi kata yang benar!" expand="false" type="slide" />
+            <slidelink slideid="_player.6CSFoAxsuHM.6YHKvqi2Td9" displaytext="Susun huruf di bawah menjadi kata yang benar!" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6JgpQPwFu5M" displaytext="BERHITUNG" expand="true" type="slide">
@@ -1381,6 +1421,10 @@
             <slidelink slideid="_player.6JgpQPwFu5M.6g2Z8fnL0qD" displaytext="ANGKA" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.68H7EqxXyPC" displaytext="ANGKA" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6AxjvuDGGBH" displaytext="ANGKA" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6rIQsk2pom4" displaytext="Nilai tempat suatu bilangan" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6X0wRMF60Gb" displaytext="Nilai tempat suatu bilangan" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6dFlOdb43c7" displaytext="Nilai tempat suatu bilangan" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6HO3i9DxaXI" displaytext="Nilai tempat suatu bilangan" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6F8v237QskX" displaytext="Penjumlahan" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.5ah4iDyejq7" displaytext="Pengurangan" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.5m97WHWJKK7" displaytext="ANGKA" expand="false" type="slide" />
@@ -1392,7 +1436,15 @@
             <slidelink slideid="_player.6JgpQPwFu5M.62MgnIu373M" displaytext="Drag and Drop" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6kgIdRnJS9q" displaytext="Text Entry" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6WOqyIZFtG1" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6ZE5W2ddZ7p" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.5bgEzHr2sS0" displaytext="Text Entry" expand="false" type="slide" />
             <slidelink slideid="_player.6JgpQPwFu5M.6bevQqGwbLV" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6FEWPcCInco" displaytext="Urutkan bilangan dari yang terkecil!" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.62fP3hOFWaI" displaytext="Urutkan bilangan dari yang terbesar!" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6EMZzl3ajDU" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.5hv31bEujcF" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.5aAl3a0lYW6" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6JgpQPwFu5M.6C6p5ojYe5W" displaytext="Text Entry" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6iSN6rwNZ4H" displaytext="LOADING" expand="true" type="slide">
